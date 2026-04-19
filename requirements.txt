@@ -1,0 +1,21 @@
+# ── Web framework (FastAPI replaces Streamlit) ────────────────────────────────
+fastapi>=0.111.0
+uvicorn[standard]>=0.29.0
+
+# ── Request validation ────────────────────────────────────────────────────────
+pydantic>=2.7.0
+
+# ── FAISS vector search ───────────────────────────────────────────────────────
+faiss-cpu>=1.7.4
+
+# ── Sentence embeddings ───────────────────────────────────────────────────────
+sentence-transformers>=2.7.0
+
+# ── Numerical computing ───────────────────────────────────────────────────────
+numpy>=1.26.0
+
+# ── Google Gemini (new SDK) ───────────────────────────────────────────────────
+google-genai>=1.0.0
+
+# ── Environment & utilities ───────────────────────────────────────────────────
+python-dotenv>=1.0.1

@@ -1,0 +1,10 @@
+- `[ ]` **Backend:** Create `backend/` directory and `backend/database.py` (SQLite setup).
+- `[ ]` **Backend:** Refactor `bottleneck_engine.py`, `synergy_scorer.py`, `roi_calculator.py` out of Streamlit (remove `@st.cache_data`, `st.error`, etc.).
+- `[ ]` **Backend:** Create `backend/main.py` mapping FastAPI routes (`/api/tickets`, `/api/bottlenecks`, etc.) to the logic.
+- `[ ]` **Frontend:** Initialize Vite React/TS frontend (`npx create-vite`).
+- `[ ]` **Frontend:** Configure API base URL & Router (`react-router-dom`).
+- `[ ]` **Frontend:** Port `assets/styles.css` into Vite setup, maintaining Vanilla CSS principles.
+- `[ ]` **Frontend:** Build `TopNav` component.
+- `[ ]` **Frontend:** Build `Dashboard` layout (KPIs + interactive Modals).
+- `[ ]` **Frontend:** Build dedicated `ActiveTickets` route.
+- `[ ]` **Frontend:** Connect frontend to backend with standard `fetch` API.
